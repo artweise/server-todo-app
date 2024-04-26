@@ -4,6 +4,7 @@ import express from 'express';
 import { middlewareConfig } from './config/index.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import indexRoutes from './routes/index.routes.js';
+import todoRoutes from './routes/todo.routes.js';
 
 // ℹ️ Gets access to environment variables/settings
 // https://www.npmjs.com/package/dotenv
@@ -38,6 +39,7 @@ middlewareConfig(app);
 
 // ℹ️ --- ROUTES ---
 app.use('/api', indexRoutes);
+app.use('/api', todoRoutes);
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 errorHandler(app);
@@ -47,4 +49,5 @@ const PORT = process.env.PORT || 5005;
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
 });
+
 export default app;

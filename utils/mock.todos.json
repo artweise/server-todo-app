@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "662afcf63af7dcd30d677c02",
+    "title": "сходить в магазин",
+    "description": "купить помидоры, огурцы",
+    "status": false,
+    "createdAt": "2024-04-26T01:01:42.308Z",
+    "updatedAt": "2024-04-26T01:06:13.368Z",
+    "__v": 0
+  },
+  {
+    "_id": "662afe323af7dcd30d677c06",
+    "title": "забрать доставку",
+    "description": "плеханова, 115",
+    "status": false,
+    "createdAt": "2024-04-26T01:06:58.420Z",
+    "updatedAt": "2024-04-26T01:06:58.420Z",
+    "__v": 0
+  },
+  {
+    "_id": "662afe4a3af7dcd30d677c08",
+    "title": "заказать кофе",
+    "description": "средней обжарки",
+    "status": false,
+    "createdAt": "2024-04-26T01:07:22.817Z",
+    "updatedAt": "2024-04-26T01:07:22.817Z",
+    "__v": 0
+  },
+  {
+    "_id": "662afe6b3af7dcd30d677c0a",
+    "title": "позвонить М",
+    "description": "в 15:00",
+    "status": false,
+    "createdAt": "2024-04-26T01:07:55.937Z",
+    "updatedAt": "2024-04-26T01:07:55.937Z",
+    "__v": 0
+  },
+  {
+    "_id": "662afe7e3af7dcd30d677c0c",
+    "title": "написать заявление на отпуск",
+    "description": "на июль",
+    "status": false,
+    "createdAt": "2024-04-26T01:08:14.915Z",
+    "updatedAt": "2024-04-26T01:08:14.915Z",
+    "__v": 0
+  },
+  {
+    "_id": "662afe913af7dcd30d677c0e",
+    "title": "отправить посылку с заказом",
+    "status": false,
+    "createdAt": "2024-04-26T01:08:33.887Z",
+    "updatedAt": "2024-04-26T01:08:33.887Z",
+    "__v": 0
+  }
+]
