@@ -17,6 +17,13 @@ const findAllTodos = async (req, res) => {
 const createNewTodo = async (req, res, next) => {
   try {
     const { title, description, status } = req.body;
+
+    // Check if the title is empty
+    if (!title) {
+      return res.status(400).json({ message: 'Title cannot be empty' });
+    }
+
+    // If title is not empty, proceed to create new todo
     const newTodo = await Todo.create({ title, description, status });
     res.status(201).json({ newTodo });
   } catch (error) {
